@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'random.py = Week4_deliver.random.py:main'
+            'random = Week4_deliver.random:main'
         ],
     },
 )

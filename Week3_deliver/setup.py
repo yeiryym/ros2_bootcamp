@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle_cleaner3.py = Week3_deliver.turtle_cleaner3:main'
-            'random_turtle3.py = Week3_deliver.random_turtle3:main'
+            'turtle_cleaner3 = Week3_deliver.turtle_cleaner3:main'
+            'random_turtle3 = Week3_deliver.random_turtle3:main'
         ],
     },
 )
